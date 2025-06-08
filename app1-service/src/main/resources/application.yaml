@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: app1-service
+
+logging:
+  level:
+    root: INFO
+
+app2:
+  url: http://localhost:8082
